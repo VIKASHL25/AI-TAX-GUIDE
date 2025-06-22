@@ -1,0 +1,167 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #fff;
+   
+  }
+  .about-whole{
+    background: url('./img3.jpg') ,no-repeat;
+    background-size: 100% auto, cover;
+     background-attachment: fixed, fixed;
+    background-repeat: no-repeat, no-repeat;
+     margin: 0;
+    padding: 0;
+     
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  header {
+    background: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .logo span {
+    color: gray;
+    font-weight: normal;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #2e2e2e;
+    font-weight: 500;
+  }
+  
+  .about {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 40px;
+  }
+  
+  button {
+    background-color: #304ffe;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .image-content img {
+    max-width: 400px;
+    height: auto;
+  }
+  
+  .about-us-section {
+    background: transparent;
+    padding: 60px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .about-us-container {
+    width: 100%;
+    float: left;
+    margin: auto;
+    background: transparent;
+    padding: 40px;
+    border-radius: 16px;
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-title {
+    font-size: 46px;
+    color: #2f2f72;
+    margin-bottom: 20px;
+  }
+  
+  .about-subtitle {
+    font-size: 40px;
+    color: #2f2f72;
+    margin-top: 30px;
+  }
+  
+  .about-intro {
+    font-size: 25px;
+    font-weight: 500;
+    color: #444;
+  }
+  
+  .about-us-container p {
+    font-size: 20px;
+    font-weight: 900;
+    color: #555;
+    line-height: 1.6;
+  }
+  
+  .about-us-container ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .about-us-container li {
+    margin-bottom: 10px;
+  }
+  
+  .learn-more-btn {
+    margin-top: 30px;
+    background-color: #2f2f72;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .learn-more-btn:hover {
+    background-color: #1e1e50;
+  }
+  
+  .footer {
+    background: linear-gradient(to right, #9bcbfe, #00c6ff);
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 1.2em;
+    font-family: 'Arial', sans-serif;
+    margin-top: 50px;
+    border-top: 4px solid #0056b3;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .footer p {
+    margin: 0;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+  }
+  li{
+    color: black;
+  }
